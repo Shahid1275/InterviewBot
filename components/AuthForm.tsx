@@ -60,7 +60,8 @@ const AuthForm = ({ type }: { type: FormType }) => {
     <div className="card-border lg:min-w-[556px]">
       <div className="card flex flex-col gap-4 py-14 px-10">
         <div className="flex flex-row gap-2 justify-center">
-          <Image src="/logo.png" width={90} height={90} alt="logo" />
+          <Image src="/logo.svg" width={38} height={38} alt="logo" />
+          <h2 className="text-primary-100">PrepAce</h2>
         </div>
         <h3 className="text-2xl text-center">Practice job interview with AI</h3>
         
@@ -74,7 +75,8 @@ const AuthForm = ({ type }: { type: FormType }) => {
                   <FormItem>
                     <FormLabel>Name</FormLabel>
                     <FormControl>
-                      <Input placeholder="Your Name" {...field} />
+                      <Input placeholder="Your Name" {...field}  className="rounded-full px-2 py-5 border-2 
+                    transition-all duration-200 hover:border-gray-300"/>
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -89,7 +91,8 @@ const AuthForm = ({ type }: { type: FormType }) => {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl >
-                    <Input placeholder="Your Email Address" type="email" {...field} />
+                    <Input placeholder="Your Email Address" type="email" {...field}  className="rounded-full px-2 py-5 border-2 
+                    transition-all duration-200 hover:border-gray-300"/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -103,7 +106,8 @@ const AuthForm = ({ type }: { type: FormType }) => {
                 <FormItem>
                   <FormLabel>Password</FormLabel>
                   <FormControl>
-                    <Input placeholder="  Enter Your Password" type="password" {...field} />
+                    <Input placeholder="  Enter Your Password" type="password" {...field} className="rounded-full px-2 py-5 border-2 
+                    transition-all duration-200 hover:border-gray-300"/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
