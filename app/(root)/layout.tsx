@@ -10,8 +10,8 @@ const Rootlayout = ({children}:{children:React.ReactNode
     <div className='root-layout'>
       <nav>
         <Link href='/' className='flex items-center gap-2' >
-      <Image src='./logo.svg' alt='logo'  width={38} height={38}/>
-      <h2 className='text-primary-100'>PrepAce</h2>
+      <Image src='/logo.png' alt='logo'  width={198} height={198}/>
+      {/* <h2 className='text-primary-100'>PrepAce</h2> */}
       </Link>
       </nav>
       {children}
