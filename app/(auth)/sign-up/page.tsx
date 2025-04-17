@@ -1,10 +1,6 @@
-import AuthForm from '../../../components/AuthForm'
-import React from 'react'
+// app/sign-up/page.tsx
+import AuthForm from "@/components/AuthForm";
 
-const page = () => {
-  return (
-    <AuthForm  type = "sign-up"/>
-  )
+export default function SignUpPage() {
+  return <AuthForm type="sign-up" />;
 }
-
-export default page
